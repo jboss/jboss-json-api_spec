@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.jboss.spec.javax.json</groupId>
+    <artifactId>jboss-javax-api_1.0_spec</artifactId>
+    <version>1.0.0.Alpha1-SNAPSHOT</version>
+
+    <distributionManagement>
+        <relocation>
+            <groupId>javax.json</groupId>
+            <artifactId>javax.json-api</artifactId>
+            <version>1.0-b04</version>
+            <message>Relocating to javax.json:javax.json-api:1.0-b04</message>
+        </relocation>
+    </distributionManagement>
+
+
+</project>
