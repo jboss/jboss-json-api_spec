@@ -4,7 +4,7 @@
 
     <groupId>org.jboss.spec.javax.json</groupId>
     <artifactId>jboss-json-api_1.0_spec</artifactId>
-    <version>1.0.0.Alpha1</version>
+    <version>1.0.0.Alha2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Java(TM) API for JSON Processing</name>
