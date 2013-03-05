@@ -8,6 +8,15 @@
     <artifactId>jboss-json-api_1.0_spec</artifactId>
     <version>1.0.0.Alpha1-SNAPSHOT</version>
 
+    <name>Java(TM) API for JSON Processing</name>
+    <description>JSR 353: JavaTM API for JSON Processing API classes</description>
+
+    <scm>
+     <connection>scm:git:git@github.com:jboss/jboss-json-api_spec.git</connection>
+     <developerConnection>scm:git:git@github.com:jboss/jboss-json-api_spec.git</developerConnection>
+     <url>https://github.com/jboss/jboss-json-api_spec</url>
+    </scm>
+
     <distributionManagement>
         <relocation>
             <groupId>javax.json</groupId>
@@ -16,6 +25,5 @@
             <message>Relocating to javax.json:javax.json-api:1.0-b04</message>
         </relocation>
     </distributionManagement>
-
 
 </project>
