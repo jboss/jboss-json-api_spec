@@ -12,7 +12,7 @@
     <groupId>org.jboss.spec.javax.json</groupId>
     <artifactId>jboss-json-api_1.0_spec</artifactId>
     <version>1.0.0.Alpha1-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 
     <name>Java(TM) API for JSON Processing</name>
     <description>JSR 353: JavaTM API for JSON Processing API classes</description>
@@ -39,7 +39,7 @@
     <properties>
         <jsr353.spec.title>JSR-353 Java API for JSON Processing</jsr353.spec.title>
         <jsr353.spec.vendor>Oracle</jsr353.spec.vendor>
-        <jsr353.spec.version>0.0.99b04</jsr353.spec.version>
+        <jsr353.spec.version>1.0</jsr353.spec.version>
 
         <!-- This property is used by the maven enforcer and maven compiler plugins configured in the parent pom
             (jboss-parent). We override the value here to 1.7 to force our project to require Java 7 -->
