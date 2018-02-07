@@ -10,12 +10,12 @@
     </parent>
 
     <groupId>org.jboss.spec.javax.json</groupId>
-    <artifactId>jboss-json-api_1.0_spec</artifactId>
-    <version>1.0.2.Final-SNAPSHOT</version>
+    <artifactId>jboss-json-api_1.1_spec</artifactId>
+    <version>1.1.0.Final-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Java(TM) API for JSON Processing</name>
-    <description>JSR 353: JavaTM API for JSON Processing API classes</description>
+    <description>JSR 374: JavaTM API for JSON Processing API classes</description>
 
     <scm>
      <connection>scm:git:git@github.com:jboss/jboss-json-api_spec.git</connection>
@@ -38,14 +38,9 @@
     </licenses>
 
     <properties>
-        <jsr353.spec.title>JSR-353 Java API for JSON Processing</jsr353.spec.title>
-        <jsr353.spec.vendor>Oracle</jsr353.spec.vendor>
-        <jsr353.spec.version>1.0</jsr353.spec.version>
-
-        <!-- This property is used by the maven enforcer and maven compiler plugins configured in the parent pom
-            (jboss-parent). We override the value here to 1.7 to force our project to require Java 7 -->
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
+        <jsr374.spec.title>JSR-374 Java API for JSON Processing</jsr374.spec.title>
+        <jsr374.spec.vendor>Oracle</jsr374.spec.vendor>
+        <jsr374.spec.version>1.1</jsr374.spec.version>
     </properties>
 
     <build>
@@ -96,16 +91,16 @@
                             <addDefaultSpecificationEntries>false</addDefaultSpecificationEntries>
                         </manifest>
                         <manifestEntries>
-                            <Automatic-Module-Name>beta.jboss.json.api_1_0</Automatic-Module-Name>
+                            <Automatic-Module-Name>beta.jboss.json.api_1_1</Automatic-Module-Name>
                         </manifestEntries>
                     </archive>
                     <instructions>
-                        <Specification-Title>${jsr353.spec.title}</Specification-Title>
-                        <Specification-Vendor>${jsr353.spec.vendor}</Specification-Vendor>
-                        <Specification-Version>${jsr353.spec.version}</Specification-Version>
+                        <Specification-Title>${jsr374.spec.title}</Specification-Title>
+                        <Specification-Vendor>${jsr374.spec.vendor}</Specification-Vendor>
+                        <Specification-Version>${jsr374.spec.version}</Specification-Version>
                         <!-- Set the package version to match the spec version -->
                         <Export-Package>
-                            javax.json.*;version=${jsr353.spec.version}
+                            javax.json.*;version=${jsr374.spec.version}
                         </Export-Package>
                     </instructions>
                 </configuration>
@@ -127,9 +122,9 @@
                 <configuration>
                     <archive>
                         <manifestEntries>
-                            <Specification-Title>${jsr353.spec.title}</Specification-Title>
-                            <Specification-Vendor>${jsr353.spec.title}</Specification-Vendor>
-                            <Specification-Version>${jsr353.spec.version}</Specification-Version>
+                            <Specification-Title>${jsr374.spec.title}</Specification-Title>
+                            <Specification-Vendor>${jsr374.spec.title}</Specification-Vendor>
+                            <Specification-Version>${jsr374.spec.version}</Specification-Version>
                         </manifestEntries>
                     </archive>
                 </configuration>
